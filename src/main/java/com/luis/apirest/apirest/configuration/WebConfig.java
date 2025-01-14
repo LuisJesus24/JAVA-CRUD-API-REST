@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permitir todos los endpoints
-                .allowedOrigins("https://67814a4de99cf3405146d23e--precious-lamington-e883a8.netlify.app") // Tu dominio Netlify
+                .allowedOrigins("https://luisjesusdev.netlify.app/") // Tu dominio Netlify
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
                 .allowedHeaders("*"); // Permitir todos los headers
     }
